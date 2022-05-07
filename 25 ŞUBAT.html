@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style type="text/css"> 
+	body {background:black; display: flex; align-items: center; justify-content: center; min-height: 100vh;} * {margin: 0; padding: 0; box-sizing: border-box;}
+ 
+   input {width: 240px; height: 39px; background: black; color: white; outline: none; position: relative;  border: none; border: 2px solid #2f75ce;}
+   label {font-family: bold; font-weight: bold; position: absolute; display: flex; flex-direction: column; color: white; font-size: 19px; left: 13px; top: 8px; transition: 0.7s; pointer-events: none;}
+ input:not(:placeholder-shown) + label, input:focus + label {top: -11px; color: #2f75ce; background: black; display: inline-block; width: 90px; display: flex; align-items: center; justify-content:center; left: 9px; font-size: 18px;}
+
+i {color: white; position:absolute; display: flex; flex-direction: column; font-size: 24px; left: 7px; top:7px;}
+ul{list-style-type: none; position: relative;}
+.li {position: relative;}
+.li.i {position: relative; top: 30px;}
+h3 {color: white; position: absolute; display: flex; flex-direction: column; top: 135px; width: 100px; height: 30px; border-radius: 4px; background: black; border: 2px solid #2f75ce; align-items: center; justify-content: center; font-family: bold; font-weight: bold; font-size: 16px; cursor: pointer;}
+h3:hover {transform: scale(1.03); border: 2px solid white;}
+</style> 
+</head>
+<body>
+
+	<ul>
+		<li class="li"><input type="text" name="" placeholder=" ">     <label>Username</label>    </li>
+		<li class="li i">   <input type="password" name="" placeholder=" ">    <label>Password</label></li>
+		<h3>LOGİN</h3>
+	</ul>
+    
+
+</body>
+</html>
